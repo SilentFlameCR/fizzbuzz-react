@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(#2193b0, #6dd5ed);
+    height: 100vh;
+    background-size: cover;
+}
+
+em {
+    text-decoration: underline;
+}
+
+.rules {
+    background-color: whitesmoke;
+}
+
+.title {
+    margin-top: 20px;
+}
+
+.reduce {
+    width: 50%;
+    background: linear-gradient(to right,#232526, #414345);
+    color: white;
+    border: none;
+    height: 40px;
+}
+
+.increase {
+    width: 50%;
+    background: linear-gradient(to right,#232526, #414345);
+    color: white;
+    border: none;
+    height: 40px;
+}
+
+.result {
+    margin-top: 100px;
+}
+
+@media only screen and (min-width: 768px){
+    
+    .reduce {
+        margin-left: 25%;
+        width: 25%;
+    }
+
+    .increase {
+        width: 25%;
+    }
+}
